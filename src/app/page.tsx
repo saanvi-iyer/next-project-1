@@ -1,5 +1,5 @@
-import { TodoItem } from "@/components/TodoItem"
-import { prisma } from "@/db"
+import { Prisma } from "@prisma/client"
+import { TodoItem } from "../components/TodoItem"
 import Link from "next/link"
 
 function getTodos() {
