@@ -1,4 +1,4 @@
-import { Prisma } from "@prisma/client"
+import { prisma } from "../db"
 import { TodoItem } from "../components/TodoItem"
 import Link from "next/link"
 
